@@ -3,10 +3,10 @@ var todayDate = moment().format('dddd, MMM Do YYYY');
 $("#currentDay").html(todayDate);
 
 $(document).ready(function () {
-   
+
     // Save Btn click listener
     $(".saveBtn").on("click", function () {
-       
+
         //Get nearby values of the description in JQuery
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
@@ -16,7 +16,7 @@ $(document).ready(function () {
     })
 
     function timeTracker() {
-        
+
         //Get current number of hours
         varTimeNow = moment().hour();
 
@@ -45,26 +45,17 @@ $(document).ready(function () {
     }
 
 
-        //Get items from local storage if any
+    //Get items from local storage if any
 
     $("#8 .description").val(localStorage.getItem("hour8"));
-
     $("#9 .description").val(localStorage.getItem("hour9"));
-
     $("#10 .description").val(localStorage.getItem("hour10"));
-
     $("#11 .description").val(localStorage.getItem("hour11"));
-
     $("#12 .description").val(localStorage.getItem("hour12"));
-
     $("#13 .description").val(localStorage.getItem("hour13"));
-
     $("#14 .description").val(localStorage.getItem("hour14"));
-
     $("#15 .description").val(localStorage.getItem("hour15"));
-
     $("#16 .description").val(localStorage.getItem("hour16"));
-
     $("#17 .description").val(localStorage.getItem("hour17"));
 
     timeTracker();
