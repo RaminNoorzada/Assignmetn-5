@@ -12,17 +12,17 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
 
         //Scves text in local storage
-        localStorage.setItem(time, text);
+        localStorage.setItem(mytime, text);
     })
 
     function timeTracker() {
 
         //Get current number of hours
-        varTimeNow = moment().hour();
+        var timeNow = moment().hour();
 
         //Loop over time blocks
         $(".time-block").each(function () {
-            var blockTime = perseInt($(this).attr("id").split("hour")[1]);
+            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
             //To check the time and add the classes for background indicatiors
             if (blockTime < timeNow) {
