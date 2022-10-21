@@ -27,33 +27,33 @@ textarea {
 
 .time-block {
   text-align: center;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid rgb(42, 30, 30);;
+  border-top: 1px solid rgb(29, 26, 26);;
 }
 
 .hour {
-  background-color: #684d4d71;
+  background-color: #905858a5;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #902e2e;
+  background-color: #c94848;
   color: white;
 }
 
 .present {
-  background-color: #9bb93a;
+  background-color: #869f34;
   color: white;
 }
 
 .future {
-  background-color: #123f83;
+  background-color: #36598d87;
   color: white;
 }
 
@@ -61,8 +61,8 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #3378274a;
-  color: rgb(203, 79, 22);
+  background-color: #52664e89;
+  color: rgb(106, 171, 114);
 }
 
 .saveBtn i:hover {
