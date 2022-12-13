@@ -11,8 +11,8 @@ $(document).ready(function () {
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
-        //Scves text in local storage
-        localStorage.setItem(mytime, text);
+        //Saves text in local storage
+        localStorage.setItem(time, text);
     })
 
     function timeTracker() {
@@ -43,7 +43,6 @@ $(document).ready(function () {
             }
         })
     }
-
 
     //Get items from local storage if any
 

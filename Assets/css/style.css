@@ -1,16 +1,43 @@
+.container {
+  max-width: 987px;
+}
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   line-height: 1;
+
+}
+footer {
+  display: block;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  font-weight: bolder;
 }
 
-textarea {
+#header {
+  text-align: center;
+  color: black;
+  border-bottom: 10px #000000;
+}
+
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 2.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #0d0c0c;
+  color: black;
   border-left: 1px solid black;
   padding: 10px;
+  width: 100%;
+  min-height: 80px;
 }
 
 .jumbotron {
@@ -18,58 +45,85 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 2px solid black;
+  
 }
 
 .description {
   white-space: pre-wrap;
+  padding: 10px;
+
 }
 
 .time-block {
   text-align: center;
-  border-radius: 18px;
+  
 }
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid rgb(29, 26, 26);;
+  min-height: 100px;
+  border-top: 1px solid white;
+  margin-top: 2px;
+
 }
 
 .hour {
-  background-color: #905858a5;
+  background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px #000000;
+  border-radius: 20px;
+}
+
+.dayHour {
+  margin-bottom: 0;
 }
 
 .past {
-  background-color: #c94848;
+  background-color: gray;
   color: white;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .present {
-  background-color: #869f34;
+  background-color: #ff6961;
   color: white;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .future {
-  background-color: #36598d87;
+  background-color: #77dd77;
   color: white;
+  cursor: text;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 .saveBtn {
+  background-color: #06aed5;
+  color: white;
+  cursor: pointer;
+  min-height: 80px;
+  background-color: #06aed5;
+  color: white;
+  cursor: pointer;
+  position: relative;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #52664e89;
-  color: rgb(106, 171, 114);
+  
 }
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+#icon:hover {
+  font-size: 40px;
+  transition: all .3s ease-in-out;
 }
-
+#icon {
+  margin: 0 auto;
+  padding-right: 40px;
+  padding-top: 5px;
+}
 /**Mobile application functionality **/
 /**Program will sport the on smaller devices as well**/
 
