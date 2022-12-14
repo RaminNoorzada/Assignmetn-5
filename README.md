@@ -28,4 +28,7 @@ THEN the saved events persist
 * The given input will be saved in the local storage.
 * This daily calender is capable to be used in Mobile as will.
 
-##Page functionality screenshots
+##Page functionality GIF.
+
+![Work Day Scheduler](https://user-images.githubusercontent.com/87600341/207547904-eccbcfb8-6b59-44d0-98e7-932701134155.gif)
+
