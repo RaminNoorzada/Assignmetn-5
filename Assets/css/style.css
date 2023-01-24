@@ -74,7 +74,11 @@ footer {
   border-top: 1px #000000;
   border-radius: 20px;
 }
-
+.col-md-1
+{
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .dayHour {
   margin-bottom: 0;
 }
